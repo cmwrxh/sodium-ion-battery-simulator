@@ -13,3 +13,9 @@ Focus: Compare key metrics post-2026 breakthroughs (e.g. CATL Naxtra at ~175 Wh/
 Upcoming: Parameter sweeps, LCOE-like calcs, visualizations.
 
 MIT Licensed.
+## Quick Start
+```bash
+# Imagine running locally or in Colab:
+pip install -r requirements.txt
+python src/compare.py
+python src/visualize.py   # generates comparison_plot.png
